@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+@import "primary/asides";
+
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "primary/footer";
+
+.screen-reader-text {
+  @extend .sr-only;
+}
+
+
+.site-content {
+  @include make-row();
+  word-break: break-word;
+
+    .content-area {
+        @include make-md-column(8);
+    }
+
+    .widget-area {
+        @include make-md-column(4);
+    }
+}
