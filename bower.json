@@ -19,5 +19,8 @@
   "dependencies": {
     "bootstrap-sass": "latest",
     "fontawesome": "latest"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7"
   }
 }
